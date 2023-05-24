@@ -11,7 +11,16 @@ int main(int argc, char* argv[]) {
     printf("argc is %d\n", argc);
     printf("argv is %s\n", argv[2]);
 
+    {
+	    int i;
+	    i = 10;
+	    printf("%d\n", i);
+    }
+
     cat(s, t);
+    if ( 1 ) {
+	    printf("-1\n");
+    }
 }
 
 void cat(char s[], char t[]) {

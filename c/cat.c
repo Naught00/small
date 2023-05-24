@@ -3,7 +3,7 @@
 
 int main(void) {
     FILE *fp;
-    fp = fopen("c/cat.c", "r+");
+    fp = fopen("cat.c", "r+");
 
     int c;
     char l[] = "test\n";

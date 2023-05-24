@@ -9,3 +9,10 @@ int main(void) {
     printf("%d\n", a[7]);
     return 0;
 }
+
+int function(int x, int z) {
+	if (x > z) {
+		return x;
+	}
+	return z;
+}
